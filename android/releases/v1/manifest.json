@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageId": "app.getmelomusic.android",
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apkUrl": "https://getmelomusic.app/android/releases/5/melo-1.0.4.apk",
-  "sha256": "7751d5782672d9b641accb6db8beeb4212fb77e1151920b9ba6ff707ab73284c",
-  "sizeBytes": 27224547,
+  "versionCode": 7,
+  "versionName": "1.0.6",
   "minSdk": 26,
-  "releaseNotes": "Startup paywall and in-app update prompts, refreshed melo+ prices, and lifetime plan visibility. Stripe Sandbox test build."
+  "apkUrl": "https://getmelomusic.app/android/releases/7/melo-1.0.6-test.apk",
+  "sha256": "de8931fee9ff10d77a596be84cf013fd2f7f55b5e0b98a886ac590111c0de133",
+  "sizeBytes": 27224547,
+  "releaseNotes": "Fixes a crash when opening or adjusting the import trim timeline."
 }

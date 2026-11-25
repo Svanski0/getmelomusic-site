@@ -81,6 +81,7 @@
 
   <section class="card">
     <h2>Updates</h2>
+    <p>Using the older Sandbox build? <a id="android-test-download" href="/android/releases/7/melo-1.0.6-test.apk" download><b>Download the Sandbox update</b></a> to keep your current library. Switching from Sandbox to the production app requires a fresh install. Keep your existing app installed until your library is backed up.</p>
     <p>melo checks for new versions when you open the app and while you use it. When an update is ready, it appears in melo. Android asks you to confirm the install.</p>
     <p>Already installed? Open <b>Settings → Check for updates</b> to check now. The APK is verified before Android opens its installer.</p>
   </section>
@@ -107,9 +108,9 @@
   </nav>
 </footer>
 <script>
-  document.getElementById('android-download').addEventListener('click', () => {
+  document.querySelectorAll('#android-download, #android-test-download').forEach(link => link.addEventListener('click', () => {
     navigator.sendBeacon?.('https://melo-billing-prod.fly.dev/v1/analytics/android-download');
-  });
+  }));
 </script>
 </body>
 </html>
