@@ -63,7 +63,7 @@
   <p class="sub">Early access. Save any TikTok audio, loop the good part, and play it in real playlists, offline.</p>
 
   <div class="download">
-    <a class="pill solid" href="/android/releases/5/melo-1.0.4.apk" download>
+    <a id="android-download" class="pill solid" href="/android/releases/5/melo-1.0.4.apk" download>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M6.5 10 12 15.5 17.5 10M5 20h14"/></svg>
       Download melo 1.0.4
     </a>
@@ -106,5 +106,10 @@
     <a href="mailto:support@getmelomusic.app">Support</a>
   </nav>
 </footer>
+<script>
+  document.getElementById('android-download').addEventListener('click', () => {
+    navigator.sendBeacon?.('https://melo-billing-prod.fly.dev/v1/analytics/android-download');
+  });
+</script>
 </body>
 </html>
