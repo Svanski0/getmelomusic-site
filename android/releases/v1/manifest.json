@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "packageId": "app.getmelomusic.android",
+  "versionCode": 3,
+  "versionName": "1.0.2",
+  "apkUrl": "https://getmelomusic.app/android/releases/3/melo-1.0.2.apk",
+  "sha256": "ae8e114d8c8f9c46e91021d2388b85a133db701e7fc9474181f91f77de704d37",
+  "sizeBytes": 27142627,
+  "minSdk": 26,
+  "releaseNotes": "Interface rebuilt to match melo for iOS; text now fits larger font settings."
+}
