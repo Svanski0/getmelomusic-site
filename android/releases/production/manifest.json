@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "packageId": "app.getmelomusic.android",
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "minSdk": 26,
+  "apkUrl": "https://getmelomusic.app/android/releases/7/melo-1.0.6.apk",
+  "sha256": "748585e104b5337714deefd8bf33dd9480eaecfbeec2fe9fa4ad82f9e368376a",
+  "sizeBytes": 19855014,
+  "releaseNotes": "Fixes a crash when opening or adjusting the import trim timeline."
+}
