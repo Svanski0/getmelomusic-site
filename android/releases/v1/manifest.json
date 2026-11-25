@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageId": "app.getmelomusic.android",
-  "versionCode": 4,
-  "versionName": "1.0.3",
-  "apkUrl": "https://getmelomusic.app/android/releases/4/melo-1.0.3.apk",
-  "sha256": "6da0d1620eecb239004ba44f3daec9b6e47b1e1bd88298174ea5befdf8f77fea",
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "apkUrl": "https://getmelomusic.app/android/releases/5/melo-1.0.4.apk",
+  "sha256": "7751d5782672d9b641accb6db8beeb4212fb77e1151920b9ba6ff707ab73284c",
   "sizeBytes": 27224547,
   "minSdk": 26,
-  "releaseNotes": "melo+ billing in Stripe Sandbox for testing. Purchase restore will be available with account support."
+  "releaseNotes": "Startup paywall and in-app update prompts, refreshed melo+ prices, and lifetime plan visibility. Stripe Sandbox test build."
 }
