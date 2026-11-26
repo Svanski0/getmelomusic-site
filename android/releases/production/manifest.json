@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageId": "app.getmelomusic.android",
-  "versionCode": 9,
-  "versionName": "1.0.8",
-  "apkUrl": "https://getmelomusic.app/android/releases/9/melo-1.0.8.apk",
-  "sha256": "f7f951ffe3a6a816059debc2980583f36aeb3ebd495d826b856a88ecaeceb500",
+  "versionCode": 10,
+  "versionName": "1.0.9",
+  "apkUrl": "https://getmelomusic.app/android/releases/10/melo-1.0.9.apk",
+  "sha256": "511f465ec97011c54ca90dff444cada1a337e08c06c0b7cc46b365f43bd8376f",
   "sizeBytes": 19855014,
   "minSdk": 26,
   "releaseNotes": "Updated Melo Android production release."
