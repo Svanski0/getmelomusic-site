@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageId": "app.getmelomusic.android",
-  "versionCode": 12,
-  "versionName": "1.0.11",
-  "apkUrl": "https://getmelomusic.app/android/releases/12/melo-1.0.11.apk",
-  "sha256": "fcdf8818dcebf1f5e279636139d9b303a41cae7a817884002798a48c4cb92bf5",
+  "versionCode": 13,
+  "versionName": "1.0.12",
+  "apkUrl": "https://getmelomusic.app/android/releases/13/melo-1.0.12.apk",
+  "sha256": "28e2dc1bb8a47fa83dbbb4692e346c9f1b4af11f94f0f067717b0cc665b03c84",
   "sizeBytes": 19855010,
   "minSdk": 26,
-  "releaseNotes": "Updated Melo Android release."
+  "releaseNotes": "More free sound slots, clearer TikTok import help, and updated Melo+ pricing."
 }
