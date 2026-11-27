@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>melo for Android: early access</title>
-<meta name="description" content="Download melo for Android (early access). Save TikTok audio, loop the good part, and play it in playlists.">
+<title>melo for Android</title>
+<meta name="description" content="Melo for Android is coming to Google Play.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -18,27 +18,12 @@
   header { display:flex; justify-content:space-between; align-items:center; padding:22px 28px; }
   .wordmark { height:30px; display:block; }
   .pill { display:inline-flex; align-items:center; justify-content:center; gap:10px; border-radius:999px; font-weight:700; font-size:15px; padding:11px 20px; transition:transform .15s, background .2s; }
-  .pill.solid { background:var(--fg); color:#000; }
-  .pill.solid:hover { transform:scale(1.03); }
   .pill.line { border:1px solid var(--line); font-weight:600; }
   .pill.line:hover { background:rgba(255,255,255,.06); }
-  .pill svg { width:19px; height:19px; }
   main { flex:1; max-width:640px; width:100%; margin:0 auto; padding:24px 28px 48px; }
   .mark { width:56px; margin-bottom:26px; display:block; }
   h1 { font-weight:800; font-size:clamp(40px, 6vw, 64px); line-height:1.03; letter-spacing:-.035em; }
   .sub { margin-top:16px; font-size:18px; line-height:1.45; color:var(--dim); }
-  .download { margin-top:32px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
-  .download .pill.solid { font-size:17px; padding:15px 26px; }
-  .fine { margin-top:12px; font-size:13px; color:var(--dim); font-variant-numeric:tabular-nums; word-break:break-all; }
-  .card { margin-top:40px; border:1px solid var(--line); border-radius:22px; background:rgba(255,255,255,.03); padding:24px; }
-  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin-bottom:14px; }
-  ol { list-style:none; counter-reset:step; display:grid; gap:14px; }
-  ol li { counter-increment:step; display:grid; grid-template-columns:30px 1fr; gap:12px; font-size:16px; line-height:1.45; color:rgba(255,255,255,.85); }
-  ol li::before { content:counter(step); width:30px; height:30px; border-radius:50%; background:rgba(255,255,255,.1); display:grid; place-items:center; font-weight:700; font-size:14px; color:var(--fg); }
-  .card p { font-size:16px; line-height:1.5; color:rgba(255,255,255,.85); }
-  .card p + p { margin-top:10px; }
-  .card .row { display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; }
-  b { color:var(--fg); font-weight:600; }
   footer { display:flex; justify-content:space-between; padding:22px 28px; color:var(--dim); font-size:13px; }
   footer nav { display:flex; gap:18px; flex-wrap:wrap; }
   footer a:hover { color:var(--fg); }
@@ -46,7 +31,6 @@
     header { padding:16px; }
     .wordmark { height:24px; }
     main { padding:20px 16px 32px; }
-    .download .pill.solid { width:100%; }
     footer { flex-direction:column-reverse; gap:10px; align-items:center; padding:20px 16px 28px; }
   }
 </style>
@@ -60,41 +44,7 @@
 <main>
   <img class="mark" src="/assets/melo-mark-white.png" alt="">
   <h1>melo for Android</h1>
-  <p class="sub">Early access. Save any TikTok audio, loop the good part, and play it in real playlists, offline.</p>
-
-  <div class="download">
-    <a id="android-download" class="pill solid" href="/android/releases/13/melo-1.0.12.apk" download>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M6.5 10 12 15.5 17.5 10M5 20h14"/></svg>
-      Download melo 1.0.12
-    </a>
-  </div>
-  <p class="fine">APK · 19.9 MB · Android 8.0 or newer · SHA-256 28e2dc1bb8a47fa83dbbb4692e346c9f1b4af11f94f0f067717b0cc665b03c84</p>
-
-  <section class="card">
-    <h2>Install in a minute</h2>
-    <ol>
-      <li><span>Tap <b>Download melo 1.0.12</b> on your Android phone.</span></li>
-      <li><span>Open the downloaded file. If Android asks, allow installs from your browser for this one time.</span></li>
-      <li><span>Tap <b>Update</b> or <b>Install</b>. Your library stays on your phone when updating a matching melo install.</span></li>
-    </ol>
-  </section>
-
-  <section class="card">
-    <h2>Updates</h2>
-    <p>Using the older Sandbox build? <a id="android-test-download" href="/android/releases/7/melo-1.0.6-test.apk" download><b>Download the Sandbox update</b></a> to keep your current library. Switching from Sandbox to the production app requires a fresh install. Keep your existing app installed until your library is backed up.</p>
-    <p>melo checks for new versions when you open the app and while you use it. When an update is ready, it appears in melo. Android asks you to confirm the install.</p>
-    <p>Already installed? Open <b>Settings → Check for updates</b> to check now. The APK is verified before Android opens its installer.</p>
-  </section>
-
-  <section class="card">
-    <h2>Talk to us</h2>
-    <p>Early access means things change fast. Come say hi, share ideas and hear about updates first.</p>
-    <div class="row">
-      <a class="pill solid" href="https://discord.gg/9V9xTb5YP">Join the Discord</a>
-      <a class="pill line" href="https://tally.so/r/vXPrRv">Report a bug</a>
-      <a class="pill line" href="https://tally.so/r/5XZvPM">Android tester list</a>
-    </div>
-  </section>
+  <p class="sub">Coming to Google Play. Join the Discord for launch updates.</p>
 </main>
 
 <footer>
@@ -107,10 +57,5 @@
     <a href="mailto:support@getmelomusic.app">Support</a>
   </nav>
 </footer>
-<script>
-  document.querySelectorAll('#android-download, #android-test-download').forEach(link => link.addEventListener('click', () => {
-    navigator.sendBeacon?.('https://melo-billing-prod.fly.dev/v1/analytics/android-download');
-  }));
-</script>
 </body>
 </html>
